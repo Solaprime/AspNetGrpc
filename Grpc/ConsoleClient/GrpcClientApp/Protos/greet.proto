@@ -1,0 +1,37 @@
+//Define schema for Proto file, similar
+//to how u define schema for Xml 
+syntax = "proto3";
+
+//specify the application nameSpace
+option csharp_namespace = "GrpcClientApp";
+
+//helps ccrear the Dll File for us
+package greet;
+
+// The greeting service definition.
+//A service is Lika class
+service Greeter {
+  // Sends a greeting
+  //this is Like a method
+  //the keyword rpc here basically tells us the code it is an rpc 
+  //SayHello is the  name
+  //HelloRequest parameter
+  //HelloReply is the response
+  //trNScirbe to C sharp
+  // Private HelloReply SayHello(HelloRequest request)
+  rpc SayHello (HelloRequest) returns (HelloReply);
+}
+//represen is like a model In C sharp
+// The request message containing the user's name.
+message HelloRequest {
+//defines the order of our variable
+//So numbering is very mportant
+  string name = 1;
+  string email = 2;
+  string phone = 3;
+}
+
+// The response message containing the greetings.
+message HelloReply {
+  string message = 1;
+}

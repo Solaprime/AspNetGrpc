@@ -1,0 +1,28 @@
+syntax = "proto3";
+
+option csharp_namespace = "GrpcClientApp";
+
+//Since we are dealing 
+package customers;
+
+service Customer{
+	rpc GetCustomerInfo(CustomerFindModel) returns (CustomerDataModel);
+	rpc GetAllCustomers(AllCustomerFindModel) returns (stream CustomerDataModel);
+}
+//Paramert of the Method
+//csharp transalation of wat is above
+//private CustomerDataModel GetCustomerInfo(CustomerFindModel){return new CustomerDataModel}
+message CustomerFindModel{
+   //grpc can only have these dataType int32, bool, string, float, double
+   //we want these customerModel to take in userId of type int32 as parameter
+   //and the order is userId should come first
+   int32 userId = 1;
+}
+
+message  CustomerDataModel{
+	string firstName = 1;
+	string lastName = 2;
+}
+message  AllCustomerFindModel{
+
+}

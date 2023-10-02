@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "sY1+x0lBVn7Ia2AqVZvWd4Ub8VYwcYe2rZxFj/nhXgKwViyLYC3r12Z2jFvuJxWyLohv4EeNyeyK+ysv3MeQFQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Arinola\\Desktop\\Grpc\\ConsoleClient\\GrpcClientApp\\GrpcClientApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Arinola\\.nuget\\packages\\google.protobuf\\3.15.2\\google.protobuf.3.15.2.nupkg.sha512",
+    "C:\\Users\\Arinola\\.nuget\\packages\\grpc.core.api\\2.35.0\\grpc.core.api.2.35.0.nupkg.sha512",
+    "C:\\Users\\Arinola\\.nuget\\packages\\grpc.net.client\\2.35.0\\grpc.net.client.2.35.0.nupkg.sha512",
+    "C:\\Users\\Arinola\\.nuget\\packages\\grpc.net.common\\2.35.0\\grpc.net.common.2.35.0.nupkg.sha512",
+    "C:\\Users\\Arinola\\.nuget\\packages\\grpc.tools\\2.36.0\\grpc.tools.2.36.0.nupkg.sha512",
+    "C:\\Users\\Arinola\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.0.3\\microsoft.extensions.logging.abstractions.3.0.3.nupkg.sha512",
+    "C:\\Users\\Arinola\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.5.1\\system.diagnostics.diagnosticsource.4.5.1.nupkg.sha512",
+    "C:\\Users\\Arinola\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
+    "C:\\Users\\Arinola\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512"
+  ],
+  "logs": []
+}
